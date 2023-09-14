@@ -20,6 +20,9 @@ import {
   iplan,
   bootcoop,
   grissia,
+  papeleriawilde,
+  yoga,
+  moveme,
   nutrisuple,
   inmobilapp,
 } from "../assets";
@@ -214,28 +217,7 @@ const projects = [
       },
     ],
     image: grissia,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Nutrisuple",
-    description:
-      "An efficient ecommerce site offering a diverse range of medical supplies, including pills and healthcare essentials. User-friendly design ensures easy browsing and shopping for health needs.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: ".NET",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nutrisuple,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://somosgrissia.com/",
   },
   {
     name: "Inmobilapp",
@@ -256,7 +238,87 @@ const projects = [
       },
     ],
     image: inmobilapp,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://inmobilapp-alpha.vercel.app/",
+  },
+  {
+    name: "Yoga",
+    description:
+      "A web platform tailored for yoga enthusiasts, streamlining practice scheduling, guided meditation, and community engagement to foster a tranquil and balanced online yoga community.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yoga,
+    source_code_link: "https://landing-yoga.vercel.app/",
+  },
+  {
+    name: "La papelería de Wilde",
+    description:
+      "A Tiendanube-powered online stationery hub, streamlining the stationery shopping experience. Browse, select, and purchase paper goods and office supplies with ease, all in one place.",
+    tags: [
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: papeleriawilde,
+    source_code_link: "https://lapapeleriawilde.mitiendanube.com/",
+  },
+  {
+    name: "Nutrisuple",
+    description:
+      "An efficient ecommerce site offering a diverse range of medical supplies, including pills and healthcare essentials. User-friendly design ensures easy browsing and shopping for health needs.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".NET",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nutrisuple,
+    source_code_link: "https://www.nutrisuple.com/",
+  },
+  {
+    name: "Moveme",
+    description:
+      "A web platform crafted for personal trainers, streamlining appointment scheduling, fitness tracking, and client communication to optimize training experiences and foster healthy lifestyles.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".NET",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: moveme,
+    source_code_link: "https://moveme.vercel.app/",
   },
 ];
 

@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -28,6 +28,9 @@ import buspack from "./company/buspack.ico";
 import tesla from "./company/tesla.png";
 
 import grissia from "./grissia.png";
+import papeleriawilde from "./papeleriawilde.png";
+import yoga from "./yoga.png";
+import moveme from "./moveme.png";
 import nutrisuple from "./nutrisuple.png";
 import inmobilapp from "./inmobilapp.png";
 
@@ -59,6 +62,9 @@ export {
   buspack,
   tesla,
   grissia,
+  papeleriawilde,
+  yoga,
+  moveme,
   nutrisuple,
   inmobilapp,
 };
