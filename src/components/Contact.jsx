@@ -30,11 +30,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+    // VITE_APP_EMAILJS_SERVICE_ID=service_d3na7bi
+    // VITE_APP_EMAILJS_TEMPLATE_ID=template_5zvif2g
+    // VITE_APP_EMAILJS_PUBLIC_KEY=4Pd-fxzFnlJBfgEwl
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_d3na7bi",
+        "template_5zvif2g",
         {
           from_name: form.name,
           to_name: "JavaScript Mastery",
@@ -42,7 +44,7 @@ const Contact = () => {
           to_email: "cvarelagarcia@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "4Pd-fxzFnlJBfgEwl"
       )
       .then(
         () => {
