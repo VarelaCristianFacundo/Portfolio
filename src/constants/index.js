@@ -175,7 +175,7 @@ const testimonials = [
     designation: "CEO",
     company: "Grissia",
     image:
-      "https://media.licdn.com/dms/image/C4D03AQHju_l27VfdYw/profile-displayphoto-shrink_800_800/0/1650638188809?e=2147483647&v=beta&t=ocC8S-ZrecbXTUPGcodI4Le11ng_kkWYBAEpUp4HXh4",
+      "https://media.licdn.com/dms/image/D4D03AQF_vNvXebq2EA/profile-displayphoto-shrink_800_800/0/1696600390435?e=1705536000&v=beta&t=DfvwlX4gR5EfJfKETH-qXVX10i-_RbGBO59GEwalJZs",
   },
   {
     testimonial:
@@ -184,7 +184,7 @@ const testimonials = [
     designation: "Sr Developer",
     company: "Boot Coop",
     image:
-      "https://media.licdn.com/dms/image/C4D03AQEbZObEjzAZTw/profile-displayphoto-shrink_400_400/0/1661276288023?e=1699488000&v=beta&t=_-2jLR2RuZXcKOrl8RzLGMKBm4HV7i77bO1zv0grEYI",
+      "https://media.licdn.com/dms/image/C4D03AQEbZObEjzAZTw/profile-displayphoto-shrink_800_800/0/1661276289537?e=1705536000&v=beta&t=D8VMIHbra26V5PaNrvA4jMjI2LCglK1mTsjh1MykK3A",
   },
   {
     testimonial:
