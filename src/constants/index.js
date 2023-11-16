@@ -131,7 +131,7 @@ const experiences = [
     company_name: "Etres",
     icon: etres,
     iconBg: "#FFFFFF",
-    date: "Ago 2023 - Dec 2023",
+    date: "Ago 2022 - Dec 2022",
     points: [
       "Playing a pivotal role in the front-end development team at Etres, crafting visually appealing and responsive user interfaces with JavaScript, CSS.",
       "Collaborating seamlessly with design and back-end teams using PHP to ensure a harmonious user experience.",
