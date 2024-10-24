@@ -405,7 +405,7 @@ const projects = [
       },
     ],
     image: dynamo,
-    source_code_link: 'https://landing-dynamo.vercel.app/',
+    source_code_link: 'https://dynamoiot.com/',
   },
   {
     name: 'Inmobilapp',

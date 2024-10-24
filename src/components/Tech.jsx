@@ -14,7 +14,6 @@ const Tech = () => {
           </div>
         ))}
       </div>
-      <div id="projects"></div>
     </div>
   )
 }

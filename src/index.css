@@ -13,6 +13,24 @@
   color-scheme: dark;
 }
 
+/* Toast personalizado */
+.custom-toast {
+  background-color: rgb(16, 13, 37);
+  color: white;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-toast-progress {
+  background: #ff8c00;
+  /* Naranja */
+}
+
+.custom-toast-body {
+  font-size: 16px;
+}
+
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

@@ -2,6 +2,8 @@ import emailjs from '@emailjs/browser'
 import { motion } from 'framer-motion'
 import React, { useRef, useState } from 'react'
 
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import { SectionWrapper } from '../hoc'
 import { styles } from '../styles'
 import { slideIn } from '../utils/motion'
@@ -46,8 +48,14 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false)
-          alert('Thank you. I will get back to you as soon as possible.')
-
+          toast.success(
+            'Thank you! I will get back to you as soon as possible.',
+            {
+              className: 'custom-toast', // Clase personalizada para el estilo
+              progressClassName: 'custom-toast-progress', // Barra de progreso personalizada
+              bodyClassName: 'custom-toast-body', // Clase para el contenido del toast
+            }
+          )
           setForm({
             name: '',
             email: '',
@@ -56,9 +64,11 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false)
-          console.error(error)
-
-          alert('Ahh, something went wrong. Please try again.')
+          toast.error('Ahh, something went wrong. Please try again.', {
+            className: 'custom-toast',
+            progressClassName: 'custom-toast-progress',
+            bodyClassName: 'custom-toast-body',
+          })
         }
       )
   }
@@ -128,6 +138,19 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </div>
   )
 }
