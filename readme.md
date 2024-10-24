@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio 🚀
 
 _This project is a personal portfolio to showcase my work, built with React, Tailwind CSS, and Three.js for an interactive and responsive 3D experience. The project is mobile-first, with different layouts for desktop and mobile devices._
 
