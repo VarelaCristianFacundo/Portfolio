@@ -1,31 +1,36 @@
 import {
+  alecarrara,
   backend,
   bootcoop,
+  bootcoopweb,
   buspack,
+  camarcocalc,
   creator,
   css,
+  derecho,
   docker,
+  dynamo,
   etres,
   figma,
   git,
-  grissia,
   html,
   inmobilapp,
   iplan,
   javascript,
+  miguelmaidana,
   mobile,
   mongodb,
   moveme,
   nodejs,
-  nutrisuple,
-  papeleriawilde,
+  ntccom,
   reactjs,
+  redpas,
   redux,
+  rogerthat,
   tailwind,
   tsoft,
   typescript,
   web,
-  yoga,
 } from '../assets'
 
 export const navLinks = [
@@ -35,7 +40,11 @@ export const navLinks = [
   },
   {
     id: 'work',
-    title: 'Work',
+    title: 'Work Experience',
+  },
+  {
+    id: 'projects',
+    title: 'Projects',
   },
   {
     id: 'contact',
@@ -200,20 +209,18 @@ const testimonials = [
   {
     testimonial:
       'I thought it was impossible to make a web as beautiful as our product, but Cristian proved me wrong.',
-    name: 'Josefina Stanglino',
+    name: 'Alejandro Carrara',
     designation: 'CEO',
-    company: 'Grissia',
-    image:
-      'https://media.licdn.com/dms/image/D4D03AQF_vNvXebq2EA/profile-displayphoto-shrink_800_800/0/1696600390435?e=1705536000&v=beta&t=DfvwlX4gR5EfJfKETH-qXVX10i-_RbGBO59GEwalJZs',
+    company: 'Ntccom',
+    image: alecarrara,
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Cristian does.",
-    name: 'Lautaro Riveiro',
+    name: 'Miguel Maidana',
     designation: 'Sr Developer',
     company: 'Boot Coop',
-    image:
-      'https://media.licdn.com/dms/image/C4D03AQEbZObEjzAZTw/profile-displayphoto-shrink_800_800/0/1661276289537?e=1705536000&v=beta&t=D8VMIHbra26V5PaNrvA4jMjI2LCglK1mTsjh1MykK3A',
+    image: miguelmaidana,
   },
   {
     testimonial:
@@ -228,9 +235,31 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Grissia',
+    name: 'Derecho UBA',
     description:
-      'A web site designed for community managers, simplifying social media management, content scheduling, and engagement, ensuring efficient and effective online community oversight.',
+      'I implement new features, integrate payment gateways, and collaborate with multiple departments to ensure smooth functionality. Currently migrating the site to a secure server environment for enhanced security and performance.',
+    tags: [
+      {
+        name: 'PHP',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Bootstrap',
+        color: 'purple-text-gradient',
+      },
+      {
+        name: 'Web Security',
+        color: 'red-text-gradient',
+      },
+    ],
+    image: derecho,
+    source_code_link: 'http://www.derecho.uba.ar/',
+  },
+
+  {
+    name: 'Boot Coop',
+    description:
+      "A landing page for a cooperative IT company I co-founded, offering tailored software development and UX/UI design solutions. Built using HTML, JavaScript, and Tailwind CSS, the site showcases the cooperative's expertise in delivering custom IT services.",
     tags: [
       {
         name: 'JavaScript',
@@ -241,113 +270,167 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'SCSS',
-        color: 'pink-text-gradient',
+        name: 'Tailwind CSS',
+        color: 'orange-text-gradient',
       },
     ],
-    image: grissia,
-    source_code_link: 'https://somosgrissia.com/',
+    image: bootcoopweb,
+    source_code_link: 'https://bootcoop.com.ar/',
   },
   {
-    name: 'Inmobilapp',
+    name: 'Roger That',
     description:
-      'A web platform, tailored for a real estate agency, facilitating seamless rentals of apartments. Simplifying property searches and bookings, it enhances the rental experience for tenants and property owners.',
+      'Working on both the mobile app and admin panel, a platform focused on delivering online courses. The mobile app enables users to take courses. Responsible for implementing new features, managing AWS infrastructure, and working on the front-end.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'PHP',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'ProcessWire',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'CSS',
         color: 'pink-text-gradient',
       },
     ],
-    image: inmobilapp,
-    source_code_link: 'https://inmobilapp-alpha.vercel.app/',
+    image: rogerthat,
+    source_code_link: 'https://cloud.rogerthat.la/',
   },
   {
-    name: 'Yoga',
+    name: 'Ntccom',
     description:
-      'A web platform tailored for yoga enthusiasts, streamlining practice scheduling, guided meditation, and community engagement to foster a tranquil and balanced online yoga community.',
+      'Developed a modern website for Ntccom, a telecommunications company, using Astro, one of the latest technologies in the market. The site focuses on delivering an optimized user experience, combining Tailwind CSS for styling and TypeScript for robust functionality.',
     tags: [
+      {
+        name: 'Astro',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: ntccom,
+    source_code_link: 'https://ntccom.net/',
+  },
+  {
+    name: 'Camarco Calculator',
+    description:
+      'Developed a construction index calculator for CAMARCO, a regular client. The tool helps users calculate construction-related adjustments based on specific indexes. Built with Next.js for seamless performance and Tailwind CSS for modern, responsive design.',
+    tags: [
+      {
+        name: 'Next.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'green-text-gradient',
+      },
       {
         name: 'JavaScript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: camarcocalc,
+    source_code_link: 'https://camarcocalc.vercel.app/',
+  },
+  {
+    name: 'Redpas',
+    description:
+      'Developed an insurance quote calculator for Redpas, allowing users to easily compare insurance plans. Built with Next.js and Tailwind CSS for the front-end, and powered by a Python backend that integrates a API to fetch real-time insurance quotes.',
+    tags: [
+      {
+        name: 'Next.js',
         color: 'blue-text-gradient',
       },
       {
-        name: 'HTML',
+        name: 'Tailwind CSS',
         color: 'green-text-gradient',
       },
       {
-        name: 'SCSS',
+        name: 'Python',
         color: 'pink-text-gradient',
       },
     ],
-    image: yoga,
-    source_code_link: 'https://landing-yoga.vercel.app/',
-  },
-  {
-    name: 'La papelería de Wilde',
-    description:
-      'A Tiendanube-powered online stationery hub, streamlining the stationery shopping experience. Browse, select, and purchase paper goods and office supplies with ease, all in one place.',
-    tags: [
-      {
-        name: 'HTML',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'SCSS',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: papeleriawilde,
-    source_code_link: 'https://lapapeleriawilde.mitiendanube.com/',
-  },
-  {
-    name: 'Nutrisuple',
-    description:
-      'An efficient ecommerce site offering a diverse range of medical supplies, including pills and healthcare essentials. User-friendly design ensures easy browsing and shopping for health needs.',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '.NET',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nutrisuple,
-    source_code_link: 'https://www.nutrisuple.com/',
+    image: redpas,
+    source_code_link: 'https://cotizador-autos-swart.vercel.app/',
   },
   {
     name: 'Moveme',
     description:
-      'A web platform crafted for personal trainers, streamlining appointment scheduling, fitness tracking, and client communication to optimize training experiences and foster healthy lifestyles.',
+      'I Built a web platform for a personal trainer to track fitness progress, and display service pricing. Developed using React, Bootstrap, and CSS for a responsive design, the platform also incorporates Testing Library for front-end testing to ensure reliability and usability.',
     tags: [
       {
-        name: 'JavaScript',
+        name: 'React',
         color: 'blue-text-gradient',
       },
       {
-        name: '.NET',
+        name: 'Bootstrap',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'CSS',
         color: 'pink-text-gradient',
+      },
+      {
+        name: 'Testing Library',
+        color: 'orange-text-gradient',
       },
     ],
     image: moveme,
     source_code_link: 'https://moveme.vercel.app/',
+  },
+  {
+    name: 'Dynamo IoT',
+    description:
+      'I implement new features in a backoffice platform for a logistics company, enabling real-time tracking of fleets. The system includes calculations and alarm features to monitor operations. Built with PHP using the Kohana framework, with JavaScript and CSS.',
+    tags: [
+      {
+        name: 'PHP',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Kohana',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'JavaScript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: dynamo,
+    source_code_link: 'https://landing-dynamo.vercel.app/',
+  },
+  {
+    name: 'Inmobilapp',
+    description:
+      'Developed a platform for a client in Dubai, designed as a clone of Airbnb. The platform enables users to search, book, and manage apartment rentals. Built using Next.js, MongoDB, and Node.js, with Tailwind CSS for styling and Cloudinary for image storage.',
+    tags: [
+      {
+        name: 'Next.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'MongoDB',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Supabase',
+        color: 'red-text-gradient',
+      },
+    ],
+    image: inmobilapp,
+    source_code_link: 'https://inmobilapp-alpha.vercel.app/',
   },
 ]
 

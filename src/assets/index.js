@@ -28,45 +28,55 @@ import iplan from './company/iplan.png'
 import tesla from './company/tesla.png'
 import tsoft from './company/tsoft.png'
 
-import grissia from './grissia.png'
+import alecarrara from './alecarrara.png'
+import bootcoopweb from './bootcoopweb.png'
+import camarcocalc from './camarcocalc.png'
+import derecho from './derecho.png'
+import dynamo from './dynamo.png'
 import inmobilapp from './inmobilapp.png'
+import miguelmaidana from './miguelmaidana.png'
 import moveme from './moveme.png'
-import nutrisuple from './nutrisuple.png'
-import papeleriawilde from './papeleriawilde.png'
-import yoga from './yoga.png'
+import ntccom from './ntccom.png'
+import redpas from './redpas.png'
+import rogerthat from './rogerthat.png'
 
 export {
+  alecarrara,
   backend,
   bootcoop,
+  bootcoopweb,
   buspack,
+  camarcocalc,
   close,
   creator,
   css,
+  derecho,
   docker,
+  dynamo,
   etres,
   figma,
   git,
   github,
-  grissia,
   html,
   inmobilapp,
   iplan,
   javascript,
   logo,
   menu,
+  miguelmaidana,
   mobile,
   mongodb,
   moveme,
   nodejs,
-  nutrisuple,
-  papeleriawilde,
+  ntccom,
   reactjs,
+  redpas,
   redux,
+  rogerthat,
   tailwind,
   tesla,
   threejs,
   tsoft,
   typescript,
   web,
-  yoga,
 }
