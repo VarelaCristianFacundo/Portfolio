@@ -1,6 +1,6 @@
 import React from 'react'
-import Tilt from 'react-parallax-tilt' // Reincorporamos Tilt
-import { github } from '../assets' // Importamos el ícono de GitHub
+import Tilt from 'react-parallax-tilt'
+import { github } from '../assets'
 import { projects } from '../constants'
 import { SectionWrapper } from '../hoc'
 
@@ -10,7 +10,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => (
     tiltMaxAngleY={45}
     scale={1}
     transitionSpeed={450}
-    className="bg-black-200 p-5 rounded-3xl w-full sm:w-[360px] md:w-[300px]"
+    className="bg-black-200 p-5 rounded-3xl w-full sm:w-[360px] md:w-[300px] h-[500px] flex flex-col justify-between" // Altura fija para las cards
   >
     <div className="relative w-full h-[230px] overflow-hidden rounded-2xl">
       <img
@@ -24,7 +24,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => (
           className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
         >
           <img
-            src={github} // Usamos el ícono de GitHub que me pasaste
+            src={github}
             alt="source code"
             className="w-1/2 h-1/2 object-contain"
           />
@@ -33,7 +33,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => (
     </div>
 
     <div className="mt-5">
-      <h3 className="text-white font-bold text-[24px]">{name}</h3>
+      <h3 className="text-white font-bold text-[20px]">{name}</h3>
       <p className="mt-2 text-secondary text-[14px]">{description}</p>
     </div>
 
