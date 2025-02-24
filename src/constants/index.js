@@ -151,19 +151,19 @@ const experiences = [
       'Gained experience in mobile and web application development using various technologies.',
     ],
   },
-  {
-    title: 'Founder & Full Stack Developer',
-    company_name: 'Boot Coop',
-    icon: bootcoop,
-    iconBg: '#FFFFFF',
-    date: 'July 2022 - Present',
-    points: [
-      'As the founder and full-stack developer at Boot Coop, I pioneered the conceptualization, development, and growth of our digital ventures.',
-      'Proficiently employing a blend of technologies such as React.js, React Native, Node.js, .NET, SQL, PHP and Firebase to create dynamic web applications.',
-      'Nurturing user-centric design principles to deliver captivating and intuitive user interfaces.',
-      'Leading a team of skilled developers and fostering innovation in the digital landscape.',
-    ],
-  },
+  // {
+  //   title: 'Founder & Full Stack Developer',
+  //   company_name: 'Boot Coop',
+  //   icon: bootcoop,
+  //   iconBg: '#FFFFFF',
+  //   date: 'July 2022 - Present',
+  //   points: [
+  //     'As the founder and full-stack developer at Boot Coop, I pioneered the conceptualization, development, and growth of our digital ventures.',
+  //     'Proficiently employing a blend of technologies such as React.js, React Native, Node.js, .NET, SQL, PHP and Firebase to create dynamic web applications.',
+  //     'Nurturing user-centric design principles to deliver captivating and intuitive user interfaces.',
+  //     'Leading a team of skilled developers and fostering innovation in the digital landscape.',
+  //   ],
+  // },
   {
     title: 'SSr React.js Developer',
     company_name: 'Buspack',
